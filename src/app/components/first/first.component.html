@@ -1,0 +1,9 @@
+<h1>Validations</h1>
+<span *ngIf="flag">This is a span</span>
+<br>
+<button id="btn" (click)="onClick()" (mouseenter)="mouseEnter()">Hide</button>
+<br><br>
+<div>
+    <label>Solo texto : </label>
+    <input type="text" (input)="validation($event)">
+</div>
